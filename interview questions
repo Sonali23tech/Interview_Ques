@@ -1,2 +1,36 @@
 Cross origin scrpting
-throlling
+-----------------------------------------------------
+cors(cross origin resource sharing)
+access-control-allow-origin (acao)
+------------------------------------------
+
+Throttling (not trolling) is a system design technique used to limit 
+how many requests or actions are allowed in a given time period. It protects systems from overload and abuse.
+
+Authentication v/s authorisation
+
+- who i m in authentication
+- what all resource i can access in authorisation.
+
+------------------------------------------------------------
+JWT- JSON WEB TOKEN
+A JSON Web Token (JWT) is a secure way to send information between a client and a server. 
+It is mainly used in web applications and APIs to verify users and prevent unauthorized access.
+A JWT is JSON data secured with a cryptographic signature.
+
+A JWT consists of three parts separated by periods (.), which are base64url-encoded strings:
+
+Header: The header typically consists of two parts — the token type (JWT) and the signing algorithm being used, such as HMAC SHA256 or RSA.
+Referesh toekn
+
+2. Payload: The payload contains the claims, which are statements about the user or other data.
+Claims can be of three types: registered, public, and private claims.
+
+3. Signature: To create the signature part, you need to take the encoded header, encoded payload,
+a secret, and the algorithm specified in the header, then sign that with the secret.
+The signature is used to verify that the sender of the JWT is who it says it is and to ensure that
+the message wasn’t changed along the way.
+------------------------------------------------------------
+
+Authentication
+Server side authentication
